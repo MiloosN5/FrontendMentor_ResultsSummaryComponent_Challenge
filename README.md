@@ -53,10 +53,10 @@ Users should be able to:
 
 ### What I learned
 
-The main of this challenge was to make layout responsive. Since there are several ways to do this, in this case was used the grid. It helped you change number of the columns and rows if you need different layout for some breakpoint. 
-Changes in the layout of the page are made using media queries. In the media query with use "breakpoint" when we want to change the layout. 
-Formatting is done using Live Sass Compiler by Glenn Marks. It can found as a extension of the Visual Studio Code. In this solution, you can see using of different "at-rules" and directives such as: @use, @forward, @if, @else, @error, @return, @mixin, @media, @content, @import ...
-Datas can be put directly in the HTML or can be hold in the JSON file and then dynamically fetch with it in the JavaScript. Given that file need to be on the server in order to make fetch, Live Server by Ritwick Dey was used (another extension in the Visual Studio Code). 
+* The main of this challenge was to make layout responsive. Since there are several ways to do this, in this case was used the grid. It helped you change number of the columns and rows if you need different layout for some breakpoint. 
+* Changes in the layout of the page are made using media queries. In the media query with use "breakpoint" when we want to change the layout. 
+* Formatting is done using Live Sass Compiler by Glenn Marks. It can found as a extension of the Visual Studio Code. In this solution, you can see using of different "at-rules" and directives such as: @use, @forward, @if, @else, @error, @return, @mixin, @media, @content, @import ...
+* Datas can be put directly in the HTML or can be hold in the JSON file and then dynamically fetch with it in the JavaScript. Given that file need to be on the server in order to make fetch, Live Server by Ritwick Dey was used (another extension in the Visual Studio Code). 
 
 
   * SASS organization
