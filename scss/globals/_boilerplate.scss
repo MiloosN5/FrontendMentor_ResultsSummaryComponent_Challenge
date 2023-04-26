@@ -1,0 +1,23 @@
+@use '../util/' as u;
+
+// import fonts
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+// boiler_plate
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: u.$family-hankenGrotesk;
+}
+
+a {
+    text-decoration: none;
+}
+
+button, a {
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,30 @@
+// primary colors
+
+/* font color */
+    $light-red-font: hsl(0, 100%, 67%);
+    $orangey-yellow-font: hsl(39, 100%, 56%);
+    $green-teal-font: hsl(166, 100%, 37%);
+    $cobalt-blue-font: hsl(234, 85%, 45%); 
+
+    /* background color */
+    $light-red-bg: hsla(0, 100%, 67%, 0.05);
+    $orangey-yellow-bg: hsla(39, 100%, 56%, 0.05);
+    $green-teal-bg: hsla(166, 100%, 37%, 0.05);
+    $cobalt-blue-bg: hsla(234, 85%, 45%, 0.05); 
+
+// gradients
+
+$light-slate-blue-background: hsl(252, 100%, 67%);
+$light-royal-blue-background: hsl(241, 81%, 54%);
+
+$violet-blue-circle: hsla(256, 72%, 46%, 1);
+$persian-blue-circle: hsla(241, 72%, 46%, 0);
+
+// neutral
+
+$white: hsl(0, 0%, 100%);
+$pale-blue: hsla(221, 100%, 96%, 0.75);
+$light-lavender-opacity: hsla(241, 100%, 89%, 0.5);
+$dark-gray-blue: hsl(224, 30%, 27%);
+$dark-gray-blue-opacity: hsla(224, 30%, 27%, 0.5);
+$footer-blue: hsl(228, 45%, 44%); 

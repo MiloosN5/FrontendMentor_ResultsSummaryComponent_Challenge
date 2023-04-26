@@ -1,0 +1,114 @@
+@use '../util' as u;
+@use 'colors' as c;
+
+// paragraphs
+    .grid {
+        &__score {
+            p {
+                font-size: u.rem(18);
+                font-weight: u.$font-medium;
+                color: c.$pale-blue;
+            }
+        }
+
+        &__summary {
+            p {
+                font-size: u.rem(18);
+                font-weight: u.$font-extraBold;
+                color: c.$dark-gray-blue-opacity;
+            }
+        }
+    }
+
+    .footer {
+        p {
+            font-size: u.rem(16);
+        }
+    }
+
+// heading (h1-h6)
+    h1 {
+        font-size: u.rem(54);
+        @include u.breakpoint(large) {
+            font-size: u.rem(64);
+        }
+    }
+
+    .grid {
+        &__score {
+            h2 {
+                font-size: u.rem(24);
+                font-weight: u.$font-medium;
+                @include u.breakpoint(large) {
+                    font-size: u.rem(28);
+                }
+            }
+        }
+
+        &__summary {
+            h2 {
+                font-size: u.rem(18);
+                @include u.breakpoint(large) {
+                    font-size: u.rem(22);
+                }
+            } 
+        }
+    }
+
+    h3 {
+        font-size: u.rem(18);
+        font-weight: u.$font-bold;
+    }
+
+    h4 {
+        font-size: u.rem(18);
+        font-weight: u.$font-medium;
+        color: c.$pale-blue;
+        @include u.breakpoint(large) {
+            font-size: u.rem(20);
+        }
+    }
+
+    h5 {
+        font-size: u.rem(16);
+        font-weight: u.$font-medium;
+        color: c.$light-lavender-opacity;
+    }
+
+// span
+    .grid {
+        &__summary {
+            p {
+                span {
+                    font-weight: u.$font-extraBold;
+                    color: c.$dark-gray-blue;
+                }
+            }
+        }
+    }
+
+// anchor (a) - Button font size
+    .grid {
+        &__summary {
+            button {
+                a {
+                    font-size: u.rem(18);
+                }
+            }
+        }
+    }
+    .footer {
+        &__wrapper {
+            p {
+                a {
+                    color: c.$footer-blue; 
+                }
+            }
+        }
+    }
+
+
+    
+
+
+
