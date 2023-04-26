@@ -4,10 +4,19 @@
 // paragraphs
     .grid {
         &__score {
-            p {
-                font-size: u.rem(18);
-                font-weight: u.$font-medium;
-                color: c.$pale-blue;
+            &__number {
+                p {
+                    font-size: u.rem(16);
+                    font-weight: u.$font-medium;
+                    color: c.$light-lavender-opacity;
+                }
+            }
+            &__message {
+                p {
+                    font-size: u.rem(18);
+                    font-weight: u.$font-medium;
+                    color: c.$pale-blue;
+                }
             }
         }
 
