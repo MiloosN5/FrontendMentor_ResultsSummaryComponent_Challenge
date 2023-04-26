@@ -120,6 +120,7 @@ body {
             }
         }
         &__button {
+            cursor: pointer;
             position: relative;
             width: 80%;
             height: auto;
@@ -128,6 +129,7 @@ body {
             padding: 15px;
             border-radius: 30px;
             border: 1px solid g.$white;
+            text-align: center;
             &::before {
                 content: '';
                 position: absolute;
@@ -144,6 +146,8 @@ body {
                 opacity: 1;
             }
             a {
+                display: inline-block;
+                width: 100%;
                 position: relative;
                 color: g.$white;
             }
